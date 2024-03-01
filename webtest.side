@@ -1,0 +1,58 @@
+{
+  "id": "8f78a95f-ef00-485b-906d-fba78eb881a9",
+  "version": "2.0",
+  "name": "webtest",
+  "url": "https://freetestdata.com/document-files/pdf/",
+  "tests": [{
+    "id": "a212c567-0120-4a47-8448-1ea72f596100",
+    "name": "t1",
+    "commands": [{
+      "id": "21b7f75f-3661-4fdc-8ecf-c1204ad604c8",
+      "comment": "",
+      "command": "open",
+      "target": "https://freetestdata.com/document-files/pdf/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d404a5f-b3fa-48a2-a833-b56d96112029",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "988x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0672c05-8320-4e7f-af9d-3ac9e6c3433d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-8204ef0 .elementor-button-text",
+      "targets": [
+        ["css=.elementor-element-8204ef0 .elementor-button-text", "css:finder"],
+        ["xpath=//article[@id='post-81']/div/div/section[3]/div/div/div/section/div/div[2]/div/div/div/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//div/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "285df62a-429b-446f-890c-3e9ffed3ad53",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//article[@id='post-81']/div/div/section[2]/div/div/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Pdf is the abbreviation of portable document format that is created by adobe and maintained by ISO. These files can’t be modified and used to print the document. Sample pdf files are used to test the code and are available in different sizes like 100 KB, 500 KB, 1 MB, and 10 MB.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0c5c6b58-76e8-4737-aa67-38536789e2d2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://dgcgurugram.ac.in/notice", "https://demoqa.com/automation-practice-form", "https://onlinetestcase.com/pdf-file/", "https://freetestdata.com/document-files/pdf/"],
+  "plugins": []
+}
